@@ -1,0 +1,105 @@
+body{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(61, 75, 75);
+    display: flex;
+}
+
+.principal{
+    height: calc(100% - 40px);
+    width: 100%;
+    background-color:rgb(99, 190, 145);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+.carrito{
+    height: calc(100% -40px);
+    width: 50%;
+    background-color:rgb(86, 190, 216);
+    padding: 20px;
+    
+}
+
+button{
+    width: max-content;
+    height: 40px;
+    border-radius: 7px;
+    background-color: rgb(106, 228, 228);
+    outline: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+    
+}
+
+button:hover{
+    background-color: rgb(71, 37, 59) ;
+    color: white;
+}
+
+
+
+
+.content-tarjeta{
+    width: 200px;
+    height: 300px;
+    background-color: rgb(25,64,76);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: white;
+  
+}
+
+.ID-1{
+    background-color: cadetblue;
+    width: 50px;
+}
+
+.content-img{
+    width: 100%;
+    height: 180px;
+    background-color: white;
+    border-radius: 7px;
+}
+
+.img-1{
+    object-fit: fill;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-tarjeta{
+    width: 100%;
+    height: 40px;
+    background-color: rgb(221,73,172);
+    margin-top: 10px;
+}
+
+.eliminar{
+    background-color: #ff0000;
+    width: 70%;
+    color: #fff
+}
+
+.resultado{
+    font-size: 20px;
+}
+
+.btn-aceptar{
+    display: flex;
+    position: absolute;
+    margin-top: 10px;
+    left: 20px;
+}

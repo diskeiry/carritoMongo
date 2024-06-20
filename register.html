@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="register.js" defer></script>
+</head>
+<body>
+  <main>
+    <div class="form-container">
+      <h1>Registrate!</h1>
+      <form id="register-form">
+        <label for="user" class="sr-only">nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Nombre ">
+        <label for="apellido" class="sr-only">apellido</label>
+        <input type="text" name="apellido" id="apellido" placeholder="Apellido">
+        <label for="edad" class="sr-only">edad</label>
+        <input type="number" name="edad" id="edad" placeholder="Edad">
+        <label for="fechaNacimiento" class="sr-only">fecha de nacimiento</label>
+        <input type="date" name="fechaNacimiento" id="fechaNacimiento" placeholder="Fecha de nacimiento">
+
+        <button type="submit">Registrar</button>
+        <p class="error escondido">Error al registrarse</p>
+      </form>
+    </div>
+  </main>
+</body>
+</html>

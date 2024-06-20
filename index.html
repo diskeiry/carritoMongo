@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CARRITO DE COMPRA</title>
+</head>
+
+<body>
+    <div class="principal" id="principal"></div>
+    <!-- <button onclick="agregarProducto()">Agregar producto</button>
+        <button onclick="vaciarCarrito()">Vaciar Carrito</button>
+        <input type="text" id="nombre" placeholder="Ingrese producto">
+        <input type="number" id="precio" placeholder="Ingrese precio">
+        <input type="number" id="cantidad" placeholder="ingrese cantidad"> -->
+    <div class="carrito">
+        <div class="contenedor-carrito">
+            <table id="tablaProducto">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>imagen</th>
+                        <th>producto</th>
+                        <th>precio</th>
+                        <th>cantidad</th>
+                        <th>importe</th>
+                        <th>acciones</th>
+                    </tr>
+                </thead>
+                <tbody id="cuerpoTabla"></tbody>
+            </table>
+        </div>
+        <div class="totalImporte">
+            <label class="resultado"><b>Importes</b> = </label>$<label id="importe">
+            </label>
+            <div class="content-btn">
+                <a href="almacen.html" target="_blank"><button class="vender" onclick="enviar()">Vender</button></a>
+                <button class="vaciar" onclick="vaciarCarrito()">Vaciar Carrito</button>
+            </div>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
